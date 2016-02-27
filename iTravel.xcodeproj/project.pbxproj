@@ -12,6 +12,10 @@
 		C4839CC31C8235E1005BD929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4839CC11C8235E1005BD929 /* Main.storyboard */; };
 		C4839CC51C8235E1005BD929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4839CC41C8235E1005BD929 /* Assets.xcassets */; };
 		C4839CC81C8235E1005BD929 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4839CC61C8235E1005BD929 /* LaunchScreen.storyboard */; };
+		C4839CD01C823638005BD929 /* TripsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4839CCF1C823638005BD929 /* TripsDataManager.swift */; };
+		C4839CD51C8236B6005BD929 /* berlin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4839CD21C8236B6005BD929 /* berlin.jpg */; };
+		C4839CD61C8236B6005BD929 /* iceland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4839CD31C8236B6005BD929 /* iceland.jpg */; };
+		C4839CD71C8236B6005BD929 /* InitialTrips.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4839CD41C8236B6005BD929 /* InitialTrips.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		C4839CC41C8235E1005BD929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4839CC71C8235E1005BD929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4839CC91C8235E1005BD929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4839CCF1C823638005BD929 /* TripsDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripsDataManager.swift; path = ../TripsDataManager.swift; sourceTree = "<group>"; };
+		C4839CD21C8236B6005BD929 /* berlin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = berlin.jpg; path = InitialTrips/berlin.jpg; sourceTree = "<group>"; };
+		C4839CD31C8236B6005BD929 /* iceland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iceland.jpg; path = InitialTrips/iceland.jpg; sourceTree = "<group>"; };
+		C4839CD41C8236B6005BD929 /* InitialTrips.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = InitialTrips.plist; path = InitialTrips/InitialTrips.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,26 @@
 		C4839CBC1C8235E1005BD929 /* iTravel */ = {
 			isa = PBXGroup;
 			children = (
+				C4839CD11C823665005BD929 /* InitialTrips */,
 				C4839CBD1C8235E1005BD929 /* AppDelegate.swift */,
 				C4839CBF1C8235E1005BD929 /* ViewController.swift */,
 				C4839CC11C8235E1005BD929 /* Main.storyboard */,
 				C4839CC41C8235E1005BD929 /* Assets.xcassets */,
+				C4839CCF1C823638005BD929 /* TripsDataManager.swift */,
 				C4839CC61C8235E1005BD929 /* LaunchScreen.storyboard */,
 				C4839CC91C8235E1005BD929 /* Info.plist */,
 			);
 			path = iTravel;
+			sourceTree = "<group>";
+		};
+		C4839CD11C823665005BD929 /* InitialTrips */ = {
+			isa = PBXGroup;
+			children = (
+				C4839CD21C8236B6005BD929 /* berlin.jpg */,
+				C4839CD31C8236B6005BD929 /* iceland.jpg */,
+				C4839CD41C8236B6005BD929 /* InitialTrips.plist */,
+			);
+			name = InitialTrips;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +143,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4839CC81C8235E1005BD929 /* LaunchScreen.storyboard in Resources */,
+				C4839CD51C8236B6005BD929 /* berlin.jpg in Resources */,
 				C4839CC51C8235E1005BD929 /* Assets.xcassets in Resources */,
+				C4839CD61C8236B6005BD929 /* iceland.jpg in Resources */,
+				C4839CD71C8236B6005BD929 /* InitialTrips.plist in Resources */,
 				C4839CC31C8235E1005BD929 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4839CD01C823638005BD929 /* TripsDataManager.swift in Sources */,
 				C4839CC01C8235E1005BD929 /* ViewController.swift in Sources */,
 				C4839CBE1C8235E1005BD929 /* AppDelegate.swift in Sources */,
 			);
